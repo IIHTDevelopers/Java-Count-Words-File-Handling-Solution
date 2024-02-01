@@ -10,11 +10,9 @@ import java.io.IOException;
 
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.Test;
-import org.springframework.stereotype.Component;
 
 import com.countwordserapplication.FileWordCounter;
 
-@Component
 public class FunctionalTests {
 
 	private static final String TEST_FILE_PATH = "./src/main/java/com/countwordserapplication/data.txt";
